@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Student Task Manager",
+    "slug": "student-task-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": ["ios", "android", "web"]
+  }
+}

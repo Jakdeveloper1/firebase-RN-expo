@@ -6,12 +6,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Platform } from 'react-native';
 
 const firebaseConfig = {
-  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyCXf-kY8AVfZJpdmKbUZuLTEdMwFI02ZhI",
+  authDomain: "sampleapp-63862.firebaseapp.com",
+  projectId: "sampleapp-63862",
+  storageBucket: "sampleapp-63862.firebasestorage.app",
+  messagingSenderId: "354910534141",
+  appId: "1:354910534141:web:49d001e0ef49443d2dc194",
+  measurementId: "G-9TZJHNDXWD"
 };
 
 const firstTime = getApps().length === 0;
